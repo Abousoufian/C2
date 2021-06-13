@@ -1,0 +1,93 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define BESTAND "C:\\Users\\hamza\\Documents\\1EAI\\semester 2\\c programmeren 2\\idunno.txt"
+
+struct node{
+    char naam[20];
+	char stad[20];
+	char leeftijd[3];
+    struct node *next;
+}*head;
+
+
+
+void create(char ar[3][10]);
+void print();
+void test(char ar[3][10]);
+
+int main()
+{
+    FILE *fp = NULL;		
+	
+	char *token = NULL;
+	char dil[2] = "-";
+	int count = 0;
+	
+	char input[10];
+	char ar[3][10];
+	
+	
+
+	for(int x = 0; x < 3; x++)
+	{
+		printf("vul een string van 10 lang in: ");
+		gets(input);
+		strcpy(ar[x],input);
+	}
+	create(ar);
+	
+	for(int x = 0; x < 3; x++)
+	{
+		printf("vul een string van 10 lang in: ");
+		gets(input);
+		strcpy(ar[x],input);
+	}
+	create(ar);
+	
+	print();
+
+
+	//test(ar);
+	
+    return 0;
+}
+
+
+void create(char ar[3][10])
+{ 
+	struct node *temp = (struct node*)malloc(sizeof(struct node));
+
+	
+	if (temp == NULL){
+		printf("temp was NULL.\n");
+        exit(EXIT_FAILURE);
+	}
+	strcpy(temp->naam,ar[0]);
+	strcpy(temp->stad,ar[1]);
+	strcpy(temp->leeftijd,ar[2]);
+	temp->next = head;
+	head = temp;
+	
+}
+
+
+void print()			
+{
+    struct node *temp;
+    temp=head;			
+    while(temp!=NULL)
+    {
+        printf("node:|%s->%s->%s|--",temp->naam,temp->stad,temp->leeftijd);
+        temp=temp->next;
+    }
+}
+
+void test(char ar[3][10]){
+	for(int x = 0; x < 5; x++){
+		printf("element %d: string is %s\n",x,ar[x]);
+	}
+}
+
+

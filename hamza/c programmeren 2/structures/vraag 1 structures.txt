@@ -1,0 +1,3 @@
+wrm stringcpy?
+
+naam van string is pointer en die moogt ge niet veranderen dus daarom string copy

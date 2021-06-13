@@ -1,0 +1,60 @@
+﻿Description;Designator;Footprint;Quantity;Value;subtotal;total amound
+IEC Mains Power Outlet, EN60 320-2-2 F Class I, PC Flange Rear Mount, Chassis Socket;Plug AC female;header_3;1;;;
+Polarized Capacitor (radical), electrolytic;C1, C2, C4, C51, C60;Capacitor 10uF;5;10uF;2,71 €;16
+Polarized Capacitor (radical), electrolytic;C3, C5, C26, C28, C57, C59, C66, C68, C75, C76;Capacitor 100uF;10;100uF;6,60 €;26
+Non Polarized Capacitor (radical), polyester;C21, C52, C61;Capacitor 1uF;3;1uF;3,10 €;8
+Non Polarized Capacitor (radical), polyester;C24, C55, C64;Capacitor 22nF;3;22nF;1,45 €;8
+Non Polarized Capacitor (radical), polyester;C22, C53, C62 ;Capacitor 47nF;3;47nF;1,45 €;8
+Non Polarized Capacitor (radical), polyester;C33, C42;Capacitor 100nF;2;100nF;0,51 €;2
+Non Polarized Capacitor (radical), polyester;C23, C25, C54, C56, C63, C65;Capacitor 4,7nF;6;4,7nF;2,91 €;16
+Polarized Capacitor (Axial), electrolytic;C27, C58, C67;Capacitor 4u7F;3;4,7uF;2,04 €;8
+Bi-polar capacitor;C31, C40;Capacitor 10uF;2;10uF;2,30 €;
+Capacitor ceramic;C32, C34, C41, C44, C77, C78;Capacitor 100pF;6;100pF;0,80 €;6
+Bi-polar Capacitor;C35, C36, C43, C45;Capacitor 100uF;4;22uF;4,68 €;
+electrolytic;C71, C72;capacitor 2200uF;2;2200uF;1,40 €;2
+Capacitor ceramic;C73, C74;220PpF;2;220pF;0,24 €;2
+Polarized Capacitor (Axial), electrolytic;C81, C82, C83, C84;Capacitor 47uF;4;47uF;2,03 €;8
+Cinch Female;cinch_female;header_4;1;;1,09 €;2
+1 Amp General Purpose Rectifier;D1, D2, D3, D4, D5, D6, D12, D13;DO-41;8;;0,67 €;8
+Typical RED GaAs LED;D7, D8, D9, D10, D11, D14, D15, D16, D17;LED;9;;1,35 €;9
+Fuse holder;F1;fluse_holder;1;;0,26 €;
+Low Noise, Audio Dual Operational Amplifier, -40 to 85 degC, 8-Pin SOIC, Pb-Free, Tape and Reel;IC1, IC4, IC5, IC8, IC9;OPAMP_LM833;5;;7,70 €;8
+Low-Power JFET-Input General-Purpose Operational Amplifier, 7 to 36 V, 0 to 70 degC, 8-pin SOIC (D8), Green (RoHS & no Sb/Br);IC2, IC3, IC6, IC7;OPAMP_TL061;4;;10,95 €;12
+Low Power Low Offset Voltage Quad Comparator, 14-pin MDIP;IC11, IC12;OPAMP_LM339;2;;1,18 €;2
+Mono Potentiometer;P1,P7;header_3;2;100K;17,81 €;8
+Mono Potentiometer;P13, P8;header_3;2;470k;17,81 €;8
+Mono slider Potentiometer;P5;header_3;1;100k;15,59 €;4
+Mono Potentiometer;P6,P4;header_3;2;10k;8,10 €;3
+Stereo Potentiometer;P2_1A, P2_1B, P2_2A, P2_2B, ;header_3;2;100k;19,27 €;4
+Stereo Potentiometer;P2_3A, P2_3B;header_3;1;470k;8,56 €;2
+Stereo Potentiometer;P2_4A, P2_4B, P2_5A, P2_5B;header_3;2;100k;17,09 €;3
+trimmer Potentiometer;P9, P10, P11, P12, P14, P15, P16, P17;trimmer;8;47K;3,29 €;8
+Header, 2-Pin;PIN1;header_2;1;;;
+Header, 4-Pin;PIN2;transfo;1;;;
+Header, 3-Pin;PIN 3, PIN 4, PIN 5, PIN 6, PIN 7, PIN 8, PIN 9, PIN 13, PIN 16, PIN 18;header_3;10;;;
+Header, 6-Pin;PIN 14, PIN 15;header_6;2;;;
+Header, 2-Pin;PIN 17, PIN 19;header_2;2;;;
+Resistor;R1, R2, R28, R29, R69, R70, R81, R82;C1206;8;22k ;0,62 €;3
+Resistor;R3, R4 , R28;C1206;3;2,2k;0,41 €;2
+Resistor;R6;C1206;1;180;0,20 €;1
+Resistor;R7, R8, R9, R10, R11, R12, R35, R36, R48, R52, R53, R54, R87, R88, R95, R99, R100, R101;C1206;18;10k;1,03 €;5
+Resistor;R13, R30, R71, R83;C1206;4;560;0,41 €;2
+Resistor;R14, R51, R55, R56, R98, R103, R106, R112, R119;C1206;9;100k;0,41 €;2
+Resistor;R21, R22, R23, R61, R64, R65, R73, R76, R77;C1206;9;12k;0,62 €;3
+Resistor;R24, R25, R62, R66, R74, R78;C1206;6;3,9k;0,41 €;2
+Resistor;R26, R27, R63, R67, R75, R79;C1206;6;1,8k;0,41 €;2
+Resistor;R32, R68, R80;C1206;3;220;0,21 €;1
+Resistor;R33, R34, R59, R85, R86, R104;C1206;6;4,7k;0,41 €;2
+Resistor;R41, R42, R43, R44, R46, R47, R90, R91, R92, R94, R96, R97, R107, R108, R109, R110;C1206;16;1k;0,41 €;2
+Resistor;R57, R58, R102, R105;C1206;4;150;0,21 €;1
+Resistor;R60;C1206;1;2,7k;0,21 €;1
+Resistor;R111, R118;C1206;2;10;0,21 €;1
+Resistor;R113, R124;C1206;2;27k;0,21 €;1
+Resistor;R114, R115, R116, R117, R120, R121, R122, R123;C1206;8;470;0,41 €;2
+Resistor;R15, R31, R72, R84;C1206;4;100;0,41 €;2
+switch;S1;header_3;1;;4,94 €;
+Positive Voltage Regulator, 12V, 3-Pin TO-220;U1;Volt_reg;1;;0,48 €;
+2% Negative Voltage Regulator, -12V, 3-Pin TO-220;U2;Volt_reg;1;;0,75 €;
+XLR_female1;XLR_female1;XLR_Femail_Neutrik_NCJ6FA-V;1;;4,61 €;4
+XLR_male1, XLR_male2;XLR_male1, XLR_male2;XLR_MALE_Neutrik_NC3_MAV;2;;1,76 €;2
+;;;;;157,69 €;
