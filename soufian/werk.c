@@ -105,27 +105,39 @@ void main( void )
 							printf( "Coordinaat %d van y = %d\n ", i+1, tekening[i].y);
 						}
 						*/
+	
 	double straal = 0.0;
 	printf("Geef de straal in: ");
-	scanf( "%lf", straal);
+	scanf( "%lf", &straal);
 	double vierkantswortel = 0.0;
-	/*
+	int deletedCoordinaten = 0;
+	
+	struct punt deletedList[AANTAL_PUNTEN];
+	
 	for(int i=0; i<aantalPunten; i++)
 	{
-		vierkantswortel = sqrt((double)(tekening[i].x * tekening[i].x) + (tekening[i].y * tekening[i].y));
-		printf("%lf", vierkantswortel);
+		vierkantswortel = sqrt((tekening[i].x * tekening[i].x) + (tekening[i].y * tekening[i].y));
+		//printf("%.2lf\n", vierkantswortel);
+			
+		
+		if(vierkantswortel<straal)
+		{
+			deletedList[i].x = tekening[i].x;
+			deletedList[i].y = tekening[i].y;
+		}
+		else
+		{
+			deletedCoordinaten++;
+		}
 	}
-	*/
-	
-	
-	
-	//printLijst(tekening);
-  
-	//Sorteer de lijst op x en vervolgens op y waarden
-	//Print de lijst via functie
-	
-	//Vraag aan gebruiker welke maximum afstand (afstand van centrum == sqrt((x*x) + (y*y))) is toegestaan en verwijder die punten uit de lijst
-	//Print de lijst opnieuw via dezelfde functie
+						/*
+						//test: print deletedList uit
+						for(int i = 0; i<(aantalPunten - deletedCoordinaten); ++i)
+						{
+							printf( "Coordinaat %d van x = %d\n", i+1, deletedList[i].x);
+							printf( "Coordinaat %d van y = %d\n ", i+1, deletedList[i].y);
+						}
+						*/
 } 
 
 
