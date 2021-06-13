@@ -114,35 +114,29 @@ void main( void )
 	
 	struct punt deletedList[AANTAL_PUNTEN];
 	
+	int index = 0;
 	for(int i=0; i<aantalPunten; i++)
 	{
 		vierkantswortel = sqrt((tekening[i].x * tekening[i].x) + (tekening[i].y * tekening[i].y));
 		//printf("%.2lf\n", vierkantswortel);
-			
-		
 		if(vierkantswortel<straal)
 		{
-			deletedList[i].x = tekening[i].x;
-			deletedList[i].y = tekening[i].y;
+			deletedList[index].x = tekening[i].x;
+			deletedList[index].y = tekening[i].y;
+			index++;
 		}
 		else
 		{
 			deletedCoordinaten++;
 		}
+	}	
+	
+	for(int i = 0; i<(aantalPunten - deletedCoordinaten); ++i)
+	{
+		printf( "Coordinaat %d van x = %d\n", i+1, deletedList[i].x);
+		printf( "Coordinaat %d van y = %d\n ", i+1, deletedList[i].y);
 	}
-						/*
-						//test: print deletedList uit
-						for(int i = 0; i<(aantalPunten - deletedCoordinaten); ++i)
-						{
-							printf( "Coordinaat %d van x = %d\n", i+1, deletedList[i].x);
-							printf( "Coordinaat %d van y = %d\n ", i+1, deletedList[i].y);
-						}
-						*/
 } 
-
-
-
-
 
 /*
 void printLijst(struct punt tekening)
